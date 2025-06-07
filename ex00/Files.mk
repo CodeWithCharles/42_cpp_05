@@ -1,1 +1,2 @@
-FILES	=
+FILES	=																	\
+	Bureaucrat main															\

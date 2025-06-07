@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: cpoulain <cpoulain@student.42.fr>          +#+  +:+       +#+         #
+#    By: cpoulain <cpoulain@student.42lehavre.fr    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/06 01:51:31 by cpoulain          #+#    #+#              #
-#    Updated: 2025/04/07 11:31:00 by cpoulain         ###   ########.fr        #
+#    Updated: 2025/06/07 12:45:23 by cpoulain         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ OBJS		=	$(addprefix $(OBJ_DIR)/, $(addsuffix .o, $(FILES)))
 
 # Targets
 
-TARGET		:=	$(BIN_DIR)/Animal
+TARGET		:=	$(BIN_DIR)/Bureaucrat
 
 # Phony rules
 
