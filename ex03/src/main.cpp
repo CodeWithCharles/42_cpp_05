@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/09 09:45:00 by cpoulain          #+#    #+#             */
-/*   Updated: 2025/06/09 09:19:18 by cpoulain         ###   ########.fr       */
+/*   Updated: 2025/06/09 09:23:04 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,7 +114,7 @@ int main()
 	std::cout << "\n=== Intern Tests ===\n";
 	Intern intern;
 
-	AForm* f1 = intern.makeForm("ShrubberyCreationForm", "tree");
+	AForm* f1 = intern.makeForm(SC_FORM_NAME, "tree");
 	if (f1)
 	{
 		Bureaucrat gardener("Gardener", 137);
@@ -123,7 +123,7 @@ int main()
 		delete f1;
 	}
 
-	AForm* f2 = intern.makeForm("RobotomyRequestForm", "Marvin");
+	AForm* f2 = intern.makeForm(RR_FORM_NAME, "Marvin");
 	if (f2)
 	{
 		Bureaucrat roboguy("Robo", 45);
@@ -132,7 +132,7 @@ int main()
 		delete f2;
 	}
 
-	AForm* f3 = intern.makeForm("PresidentialPardonForm", "Zoidberg");
+	AForm* f3 = intern.makeForm(PP_FORM_NAME, "Zoidberg");
 	if (f3)
 	{
 		Bureaucrat prez("Prez", 1);
